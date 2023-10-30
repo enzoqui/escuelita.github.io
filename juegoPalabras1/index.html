@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        
+    <section>
+        <button onclick="location.href='verduras.html'">Adivina las verduras</button><button onclick="location.href='animales.html'">Adivina los animales</button>
+        <h2>Adivina la Palabra | Frutas:</h2>
+        <div id="palabra">
+            <div class="letra pintar">G</div>
+            <div class="letra">U</div>
+            <div class="letra">I</div>
+            <div class="letra">T</div>
+            <div class="letra">A</div>
+            <div class="letra">R</div>
+            <div class="letra">R</div>
+            <div class="letra">A</div>
+        </div>
+        <figure class="centrar">
+        <div id="imagen">
+        </div></figure>
+        <h3>Ayuda: <span id="ayuda"> Instrumento Musical</span> </h3>
+        <h3>Intentos restantes: <span id="intentos">5</span></h3>
+        <h3>Letras ingresadas: <span id="letrasIngresadas"></span></h3>
+
+        <button onclick="cargarNuevaPalabra()">Nueva Palabra</button>
+        <button id="btnReiniciar">Reiniciar</button>
+        <div><button onclick="location.href='verduras.html'">Adivina las verduras</button><button onclick="location.href='animales.html'">Adivina los animales</button></div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
